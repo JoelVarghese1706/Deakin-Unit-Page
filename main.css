@@ -1,19 +1,30 @@
-
-
 h1 {
   font-size: 40px;
-  font-family: Arial
+  font-family: Arial, sans-serif;
 }
+
 h2 {
   font-size: 25px;
-  font-family: Arial
+  font-family: Arial, sans-serif;
 }
+
 h3 {
-  font-family: Arial
+  font-family: Arial, sans-serif;
 }
+
 p {
   font-size: 14px;
-  font-family: Arial
+  font-family: Arial, sans-serif;
 }
 
+/* Table styling */
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd; /* <-- ensure nothing before #ddd */
+  font-family: Arial, sans-serif;
+}
 
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
